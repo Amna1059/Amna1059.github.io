@@ -1,0 +1,192 @@
+body {
+    padding-bottom: 5%;
+}
+
+a.navBar-links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    padding: 20px 40px;
+    font-weight: 500;
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    column-gap: 25px;
+    padding: 0 8%;
+    margin-top: 8%;
+}
+
+@media screen and (min-width:500px) {
+    .intro {
+        flex-direction: row;
+
+
+    }
+
+    .intro-text {
+        width: 50%;
+        color: #212430;
+
+    }
+
+}
+
+.intro-text {
+    width: 90%;
+    color: #212430;
+
+}
+
+.intro .intro-text button {
+    padding: 20px 40px;
+    background-color: #FF6464;
+    /* PeachPuff color */
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+.intro-right {
+    width: 40%;
+    text-align: center;
+}
+
+.intro .intro-text h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: #212430;
+}
+
+.intro .intro-text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #212430;
+}
+
+/*recent-blogs-sections start*/
+.recent-blogs-sections {
+    background-color: #edf7fa;
+    padding: 1.5% 8%;
+}
+
+.blogs-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogs-header h4 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: #212430;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 22px;
+}
+
+.card h2 {
+    font-weight: 700;
+    color: #212430;
+    font-size: 26px;
+}
+
+.card span {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    column-gap: 1%;
+}
+
+/*featured-work section*/
+.featured-work {
+    background-color: white;
+    padding: 1.5% 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.horizontal-cards {
+    display: flex;
+    column-gap: 3%;
+}
+
+.my-h2 {
+    font-weight: 700;
+    color: #212430;
+    font-size: 26px;
+
+}
+
+.pill {
+    background-color: #142850;
+    border-radius: 15px;
+    padding: 1.5px 15px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+}
+
+.secondary-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.card-para {
+    color: #212430;
+    font-size: 16px;
+
+
+}
+
+.horizontal-cards img {
+    border-radius: 5px;
+}
+
+/* *media-link" */
+
+.media-link {
+
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: center;
+
+}
+
+.social-icon {
+    font-weight: 1000;
+    font-size: 22px;
+
+}
