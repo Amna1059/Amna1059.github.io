@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+</head>
+<body>
+    <!-- Form for adding books -->
+    <form id="book_form">
+        <label for="title">Enter the title of book:</label>
+        <input type="text" id="title" name="title" required />
+        
+        <label for="author">Enter the name of author:</label>
+        <input type="text" id="author" name="author" required />
+        
+        <label for="price">Enter the price of book:</label>
+        <input type="number" id="price" name="price" required step="0.01" />
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Container to display the list of books -->
+    <div id="book_list"></div>
+
+    <script src="code.js"></script>
+</body>
+</html>
